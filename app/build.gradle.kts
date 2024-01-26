@@ -45,4 +45,10 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("androidx.room:room-runtime:2.2.5")
     annotationProcessor ("androidx.room:room-compiler:2.2.5")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel:2.2.0")
+    implementation ("androidx.lifecycle:lifecycle-livedata:2.2.0")
+    implementation ("androidx.navigation:navigation-fragment:2.3.0")
+    implementation ("androidx.navigation:navigation-ui:2.3.0")
+    implementation ("com.github.bumptech.glide:glide:4.11.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.11.0")
 }

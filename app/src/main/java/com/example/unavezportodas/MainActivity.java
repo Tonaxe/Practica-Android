@@ -68,6 +68,13 @@ private ActivityMainBinding binding;
                     NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
                     navController.navigate(R.id.recyclerElementosFragment);
                 }
+                else if (id == R.id.nav_entrenador) {
+                // Manejar la selección de LiveData (EntrenadorFragment)
+                NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
+                navController.navigate(R.id.entrenadorFragment);
+            }
+
+
 
                 DrawerLayout drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
