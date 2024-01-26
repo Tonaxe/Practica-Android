@@ -22,4 +22,27 @@
         android:name="com.example.unavezportodas.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/mostrarElementoFragment"
+        android:name="com.example.unavezportodas.MostrarElementoFragment"
+        android:label="fragment_mostrar_elemento"
+        tools:layout="@layout/fragment_mostrar_elemento" />
+    <fragment
+        android:id="@+id/nuevoElementoFragment"
+        android:name="com.example.unavezportodas.NuevoElementoFragment"
+        android:label="fragment_nuevo_elemento"
+        tools:layout="@layout/fragment_nuevo_elemento" />
+    <fragment
+        android:id="@+id/recyclerElementosFragment"
+        android:name="com.example.unavezportodas.RecyclerElementosFragment"
+        android:label="fragment_recycler_elementos"
+        tools:layout="@layout/fragment_recycler_elementos" >
+        <action
+            android:id="@+id/action_recyclerElementosFragment_to_mostrarElementoFragment"
+            app:destination="@id/mostrarElementoFragment" />
+        <action
+            android:id="@+id/action_recyclerElementosFragment_to_nuevoElementoFragment"
+            app:destination="@id/nuevoElementoFragment" />
+    </fragment>
+
 </navigation>
