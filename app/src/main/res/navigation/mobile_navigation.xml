@@ -14,28 +14,28 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.unavezportodas.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Camara"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.unavezportodas.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Galeria"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/mostrarElementoFragment"
         android:name="com.example.unavezportodas.MostrarElementoFragment"
-        android:label="fragment_mostrar_elemento"
+        android:label="RecyclerView"
         tools:layout="@layout/fragment_mostrar_elemento" />
     <fragment
         android:id="@+id/nuevoElementoFragment"
         android:name="com.example.unavezportodas.NuevoElementoFragment"
-        android:label="fragment_nuevo_elemento"
+        android:label="RecyclerView"
         tools:layout="@layout/fragment_nuevo_elemento" />
     <fragment
         android:id="@+id/recyclerElementosFragment"
         android:name="com.example.unavezportodas.RecyclerElementosFragment"
-        android:label="fragment_recycler_elementos"
+        android:label="RecyclerView"
         tools:layout="@layout/fragment_recycler_elementos" >
         <action
             android:id="@+id/action_recyclerElementosFragment_to_mostrarElementoFragment"
@@ -47,12 +47,17 @@
     <fragment
         android:id="@+id/entrenadorFragment"
         android:name="com.example.unavezportodas.EntrenadorFragment"
-        android:label="fragment_entrenador"
+        android:label="LiveData"
         tools:layout="@layout/fragment_entrenador" />
     <fragment
         android:id="@+id/itunesFragment"
         android:name="com.example.unavezportodas.ItunesFragment"
-        android:label="fragment_itunes"
+        android:label="Retrofit"
         tools:layout="@layout/fragment_itunes" />
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.example.unavezportodas.ShareFragment"
+        android:label="Compartir"
+        tools:layout="@layout/fragment_share" />
 
 </navigation>

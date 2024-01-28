@@ -34,5 +34,10 @@
             android:icon="@android:drawable/ic_menu_search"
             android:iconTint="@color/black"
             android:title="Retrofit" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:iconTint="@color/black"
+            android:title="Compartir" />
     </group>
 </menu>

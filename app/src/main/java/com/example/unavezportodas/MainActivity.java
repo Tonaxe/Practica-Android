@@ -77,6 +77,11 @@ private ActivityMainBinding binding;
                         // Manejar la selección de LiveData (EntrenadorFragment)
                         NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
                         navController.navigate(R.id.itunesFragment);
+                }
+                else if (id == R.id.nav_share) {
+                    // Manejar la selección de LiveData (EntrenadorFragment)
+                    NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
+                    navController.navigate(R.id.shareFragment);
             }
 
 
