@@ -49,5 +49,10 @@
         android:name="com.example.unavezportodas.EntrenadorFragment"
         android:label="fragment_entrenador"
         tools:layout="@layout/fragment_entrenador" />
+    <fragment
+        android:id="@+id/itunesFragment"
+        android:name="com.example.unavezportodas.ItunesFragment"
+        android:label="fragment_itunes"
+        tools:layout="@layout/fragment_itunes" />
 
 </navigation>

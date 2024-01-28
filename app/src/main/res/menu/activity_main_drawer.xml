@@ -6,23 +6,33 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:iconTint="@color/black"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:icon="@android:drawable/ic_menu_camera"
+            android:iconTint="@color/black"
+            android:title="Camara" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:iconTint="@color/black"
+            android:title="Galeria" />
         <item
             android:id="@+id/nav_recyclerview"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@android:drawable/ic_menu_view"
+            android:iconTint="@color/black"
             android:title="RecyclerView" />
         <item
             android:id="@+id/nav_entrenador"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:iconTint="@color/black"
             android:title="LiveData" />
+        <item
+            android:id="@+id/nav_retrofit"
+            android:icon="@android:drawable/ic_menu_search"
+            android:iconTint="@color/black"
+            android:title="Retrofit" />
     </group>
 </menu>

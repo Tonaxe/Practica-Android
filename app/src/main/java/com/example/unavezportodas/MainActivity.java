@@ -69,9 +69,14 @@ private ActivityMainBinding binding;
                     navController.navigate(R.id.recyclerElementosFragment);
                 }
                 else if (id == R.id.nav_entrenador) {
-                // Manejar la selección de LiveData (EntrenadorFragment)
-                NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
-                navController.navigate(R.id.entrenadorFragment);
+                    // Manejar la selección de LiveData (EntrenadorFragment)
+                    NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
+                    navController.navigate(R.id.entrenadorFragment);
+                }
+                else if (id == R.id.nav_retrofit) {
+                        // Manejar la selección de LiveData (EntrenadorFragment)
+                        NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
+                        navController.navigate(R.id.itunesFragment);
             }
 
 
