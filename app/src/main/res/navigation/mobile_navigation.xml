@@ -59,5 +59,10 @@
         android:name="com.example.unavezportodas.ShareFragment"
         android:label="Compartir"
         tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/juegoFragment"
+        android:name="com.example.unavezportodas.JuegoFragment"
+        android:label="3 en raya"
+        tools:layout="@layout/fragment_juego" />
 
 </navigation>

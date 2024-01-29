@@ -39,5 +39,10 @@
             android:icon="@android:drawable/ic_menu_share"
             android:iconTint="@color/black"
             android:title="Compartir" />
+        <item
+            android:id="@+id/nav_juego"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:iconTint="@color/black"
+            android:title="Juego" />
     </group>
 </menu>
