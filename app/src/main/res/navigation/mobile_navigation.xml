@@ -64,5 +64,10 @@
         android:name="com.example.unavezportodas.JuegoFragment"
         android:label="3 en raya"
         tools:layout="@layout/fragment_juego" />
+    <fragment
+        android:id="@+id/guessNumberFragment"
+        android:name="com.example.unavezportodas.GuessNumberFragment"
+        android:label="fragment_guess_number"
+        tools:layout="@layout/fragment_guess_number" />
 
 </navigation>

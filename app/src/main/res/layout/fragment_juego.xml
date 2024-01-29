@@ -18,6 +18,8 @@
             android:id="@+id/btn_celda1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -26,6 +28,8 @@
             android:id="@+id/btn_celda2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -34,6 +38,8 @@
             android:id="@+id/btn_celda3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -42,6 +48,8 @@
             android:id="@+id/btn_celda4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -50,6 +58,8 @@
             android:id="@+id/btn_celda5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -58,6 +68,8 @@
             android:id="@+id/btn_celda6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -66,6 +78,8 @@
             android:id="@+id/btn_celda7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -74,6 +88,8 @@
             android:id="@+id/btn_celda8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -82,6 +98,8 @@
             android:id="@+id/btn_celda9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text=""
             android:onClick="onCellClicked" />
 
@@ -103,6 +121,8 @@
             android:id="@+id/btn_reiniciar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:text="Reiniciar"
             android:onClick="onResetClicked" />
     </LinearLayout>
