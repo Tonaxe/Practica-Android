@@ -67,7 +67,7 @@
     <fragment
         android:id="@+id/guessNumberFragment"
         android:name="com.example.unavezportodas.GuessNumberFragment"
-        android:label="fragment_guess_number"
+        android:label="Adivina el numero"
         tools:layout="@layout/fragment_guess_number" />
 
 </navigation>
